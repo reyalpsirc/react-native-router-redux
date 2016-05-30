@@ -43,7 +43,7 @@ const statusBar = props => ({
 
 const title = props => {
   if (props.navTitle && props.navTitle._isReactElement) {
-    return navTitle;
+    return props.navTitle;
   }
 
   return {
