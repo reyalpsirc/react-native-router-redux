@@ -22,7 +22,7 @@ npm install -S react-native-router-redux
 
 Import and connect the router in your container:
 
-```javascript
+```js
 // reducers/index.js
 import { reducer as router } from 'react-native-router-redux';
 
@@ -95,8 +95,8 @@ export default connect(mapStateToProps, mapDispatchToProps)(Application);
 
 Change route in response to an async action, e. g. a successful login/logout. 
 
-```
-# app/actions/loginAction.js 
+```js
+// app/actions/loginAction.js 
 
 import {
   actions as routerActions,
@@ -129,8 +129,8 @@ export function logout() {
 
 If you need to access the state
 
-```
-# app/actions/loginAction.js 
+```js
+// app/actions/loginAction.js 
 
 export function signIn() {
   return (dispatch, getState) => {
