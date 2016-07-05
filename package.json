@@ -14,7 +14,7 @@
   "author": "Team Qwikly",
   "license": "MIT",
   "dependencies": {
-    "react-native-navbar": "^1.5.0",
-    "react-native-tabs": "malkomalko/react-native-tabs"
+    "react-native-navbar": "1.5.x",
+    "react-native-tabs": "1.0.x"
   }
 }
